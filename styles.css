@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+    margin-left: 0px;
+    padding-right: 10px;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
