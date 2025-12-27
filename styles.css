@@ -1,19 +1,39 @@
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
 nav {
+    float: left;
     display: flex;
     justify-content: center;
-    border-bottom: solid 2px #000;
+    position: fixed;
+    border-right: solid 1px beige;
+    border-bottom: solid 1px beige;
+    padding-right: 40px;
     margin: 0px;
-    padding: 0px;
+    top: 15px;
+    left: 0px;
+    background-color: beige;
 }
 
 nav li {
-    display: inline;
-    margin-right: 15px;
-    margin-left: 0px;
-    padding-right: 10px;
+    display: block;
+    list-style-type: none;
+    margin: 30px auto;
+    font-family: 'Space Mono', monospace;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 header {
+    left: 60px;
+    position: relative;
     text-align: center;
-    margin-top: 20px;
+    margin: 15px 20px;
+    font-family: 'Space Mono', monospace;
+    color: beige;
 }
